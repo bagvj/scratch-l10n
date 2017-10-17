@@ -5,10 +5,11 @@
 
 const locales = {
     en: 'English',
-    ar: 'العربية',
-    de: 'Deutsch',
-    es: 'Español',
-    he: 'עִבְרִית'
+    zh: '简体中文',
+    // ar: 'العربية',
+    // de: 'Deutsch',
+    // es: 'Español',
+    // he: 'עִבְרִית'
 };
 
 export {locales as default};

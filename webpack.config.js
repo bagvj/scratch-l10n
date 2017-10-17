@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    devtool: 'cheap-module-source-map',
+    // devtool: 'cheap-module-source-map',
     module: {
         rules: [{
             test: /\.js$/,
