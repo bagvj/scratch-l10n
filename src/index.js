@@ -5,7 +5,8 @@ import zh from 'react-intl/locale-data/zh';
 // import es from 'react-intl/locale-data/es';
 // import he from 'react-intl/locale-data/he';
 
-import {locales} from '../locales/gui-msgs.js';
+// import {locales} from '../locales/gui-msgs.js';
+import {locales} from '../locales/index.js';
 
 locales.en.localeData = en;
 locales.zh.localeData = zh;

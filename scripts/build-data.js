@@ -46,20 +46,23 @@ const MSGS_DIR = './locales/';
 let missingLocales = [];
 
 // GUI messages:
-let component = 'gui';
+let components = ['gui', 'paint'];
+// let components = ['gui'];
 let messages = Object.keys(locales).reduce((collection, lang) => {
     let langMessages = {};
     try {
-        let langData = JSON.parse(
-            fs.readFileSync(path.resolve(component, lang + '.json'), 'utf8')
-        );
-        Object.keys(langData).forEach((id) => {
-            langMessages[id] = langData[id].message;
+        components.forEach(component => {
+            let langData = JSON.parse(
+                fs.readFileSync(path.resolve(component, lang + '.json'), 'utf8')
+            );
+            Object.keys(langData).forEach((id) => {
+                langMessages[id] = langData[id].message;
+            });
+            collection[lang] = {
+                name: locales[lang],
+                messages: langMessages
+            };
         });
-        collection[lang] = {
-            name: locales[lang],
-            messages: langMessages
-        };
     } catch (e) {
         missingLocales.push(lang);
     }
@@ -69,10 +72,10 @@ let messages = Object.keys(locales).reduce((collection, lang) => {
 mkdirpSync(MSGS_DIR);
 let data =
     '// GENERATED FILE:\n' +
-    'const ' + component + 'Msgs = ' +
+    'const messages = ' +
     JSON.stringify(messages, null, 2) +
-    '\nexports.locales = ' + component + 'Msgs;\n';
-fs.writeFileSync(MSGS_DIR + component + '-msgs.js', data);
+    '\nexports.locales = messages;\n';
+fs.writeFileSync(MSGS_DIR + 'index.js', data);
 
 if (missingLocales.length > 0) {
     process.stdout.write('missing locales: ' + missingLocales.toString());
