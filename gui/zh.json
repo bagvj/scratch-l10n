@@ -21,7 +21,7 @@
     },
     "gui.extensionLibrary.extensionLibrary": {
         "description": "Title for extension library in the extension-library",
-        "message": "扩展型"
+        "message": "扩展库"
     },
     "gui.greenFlag.go": {
         "description": "Button to run blocks in the green-flag",

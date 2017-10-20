@@ -1,7 +1,6 @@
 // GENERATED FILE:
-const messages = {
+const guiMsgs = {
   "en": {
-    "name": "English",
     "messages": {
       "gui.backdropLibrary.backdropLibrary": "Backdrop Library",
       "gui.blocks.createVariable": "Create Variable",
@@ -56,40 +55,17 @@ const messages = {
       "gui.stageSelector.stage": "Stage",
       "gui.stageSelector.targetPaneAddBackdrop": "Add Backdrop",
       "gui.stopAll.stop": "Stop",
-      "gui.turboMode.active": "Turbo Mode",
-      "paint.brushMode.brush": "Brush",
-      "paint.paintEditor.hue": "Hue",
-      "paint.paintEditor.saturation": "Saturation",
-      "paint.paintEditor.brightness": "Brightness",
-      "paint.eraserMode.eraser": "Eraser",
-      "paint.paintEditor.fill": "Fill",
-      "paint.lineMode.line": "Line",
-      "paint.ovalMode.oval": "Circle",
-      "paint.paintEditor.costume": "Costume",
-      "paint.paintEditor.undo": "Undo",
-      "paint.paintEditor.redo": "Redo",
-      "paint.paintEditor.front": "Front",
-      "paint.paintEditor.back": "Back",
-      "paint.paintEditor.group": "Group",
-      "paint.paintEditor.ungroup": "Ungroup",
-      "paint.paintEditor.modeTools": "Mode Tools",
-      "paint.penMode.pen": "Pen",
-      "paint.rectMode.rect": "Rectangle",
-      "paint.reshapeMode.reshape": "Reshape",
-      "paint.roundedRectMode.roundedRect": "Rounded Rectangle",
-      "paint.selectMode.select": "Select",
-      "paint.paintEditor.stroke": "Outline"
+      "gui.turboMode.active": "Turbo Mode"
     }
   },
   "zh": {
-    "name": "简体中文",
     "messages": {
       "gui.backdropLibrary.backdropLibrary": "背景库",
       "gui.blocks.createVariable": "创建变量",
       "gui.costumeLibrary.costumeLibrary": "造型库",
       "gui.costumeTab.addBackdrop": "添加背景",
       "gui.costumeTab.addCostume": "添加造型",
-      "gui.extensionLibrary.extensionLibrary": "扩展型",
+      "gui.extensionLibrary.extensionLibrary": "扩展库",
       "gui.greenFlag.go": "运行",
       "gui.gui.addExtension": "扩展",
       "gui.gui.blocks": "脚本",
@@ -137,30 +113,8 @@ const messages = {
       "gui.stageSelector.stage": "舞台",
       "gui.stageSelector.targetPaneAddBackdrop": "添加背景",
       "gui.stopAll.stop": "停止",
-      "gui.turboMode.active": "加速模式",
-      "paint.brushMode.brush": "画刷",
-      "paint.paintEditor.hue": "色调",
-      "paint.paintEditor.saturation": "饱和度",
-      "paint.paintEditor.brightness": "亮度",
-      "paint.eraserMode.eraser": "橡皮擦",
-      "paint.paintEditor.fill": "填充",
-      "paint.lineMode.line": "线",
-      "paint.ovalMode.oval": "圆",
-      "paint.paintEditor.costume": "造型",
-      "paint.paintEditor.undo": "撤消",
-      "paint.paintEditor.redo": "重做",
-      "paint.paintEditor.front": "前景",
-      "paint.paintEditor.back": "背景",
-      "paint.paintEditor.group": "分组",
-      "paint.paintEditor.ungroup": "取消分组",
-      "paint.paintEditor.modeTools": "模式工具",
-      "paint.penMode.pen": "画笔",
-      "paint.rectMode.rect": "矩形",
-      "paint.reshapeMode.reshape": "变形",
-      "paint.roundedRectMode.roundedRect": "圆角矩形",
-      "paint.selectMode.select": "选择",
-      "paint.paintEditor.stroke": "外框"
+      "gui.turboMode.active": "加速模式"
     }
   }
 }
-exports.locales = messages;
+exports.messages = guiMsgs;

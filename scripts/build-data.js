@@ -45,13 +45,12 @@ import locales from '../src/supported-locales.js';
 const MSGS_DIR = './locales/';
 let missingLocales = [];
 
-// GUI messages:
+// generate messages:
 let components = ['gui', 'paint'];
-// let components = ['gui'];
-let messages = Object.keys(locales).reduce((collection, lang) => {
-    let langMessages = {};
-    try {
-        components.forEach(component => {
+components.forEach((component) => {
+    let messages = Object.keys(locales).reduce((collection, lang) => {
+        let langMessages = {};
+        try {
             let langData = JSON.parse(
                 fs.readFileSync(path.resolve(component, lang + '.json'), 'utf8')
             );
@@ -59,25 +58,24 @@ let messages = Object.keys(locales).reduce((collection, lang) => {
                 langMessages[id] = langData[id].message;
             });
             collection[lang] = {
-                name: locales[lang],
                 messages: langMessages
             };
-        });
-    } catch (e) {
-        missingLocales.push(lang);
+        } catch (e) {
+            missingLocales.push(lang);
+        }
+        return collection;
+    }, {});
+
+    mkdirpSync(MSGS_DIR);
+    let data =
+        '// GENERATED FILE:\n' +
+        'const ' + component + 'Msgs = ' +
+        JSON.stringify(messages, null, 2) +
+        '\nexports.messages = ' + component + 'Msgs;\n';
+    fs.writeFileSync(MSGS_DIR + component + '-msgs.js', data);
+
+    if (missingLocales.length > 0) {
+        process.stdout.write('missing locales: ' + missingLocales.toString());
+        process.exit(1);
     }
-    return collection;
-}, {});
-
-mkdirpSync(MSGS_DIR);
-let data =
-    '// GENERATED FILE:\n' +
-    'const messages = ' +
-    JSON.stringify(messages, null, 2) +
-    '\nexports.locales = messages;\n';
-fs.writeFileSync(MSGS_DIR + 'index.js', data);
-
-if (missingLocales.length > 0) {
-    process.stdout.write('missing locales: ' + missingLocales.toString());
-    process.exit(1);
-}
+});

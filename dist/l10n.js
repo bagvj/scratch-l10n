@@ -84,25 +84,23 @@ var _zh = __webpack_require__(2);
 
 var _zh2 = _interopRequireDefault(_zh);
 
-var _index = __webpack_require__(3);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_index.locales.en.localeData = _en2.default;
 // import ar from 'react-intl/locale-data/ar';
 // import de from 'react-intl/locale-data/de';
 // import es from 'react-intl/locale-data/es';
 // import he from 'react-intl/locale-data/he';
+// import locales from './supported-locales.js';
 
-// import {locales} from '../locales/gui-msgs.js';
+var localeData = locales;
+localeData.en.localeData = _en2.default;
+localeData.zh.localeData = _zh2.default;
+// localeData.ar.localeData = ar;
+// localeData.de.localeData = de;
+// localeData.es.localeData = es;
+// localeData.he.localeData = he;
 
-_index.locales.zh.localeData = _zh2.default;
-// locales.ar.localeData = ar;
-// locales.de.localeData = de;
-// locales.es.localeData = es;
-// locales.he.localeData = he;
-
-exports.default = _index.locales;
+exports.default = localeData;
 
 /***/ }),
 /* 1 */
@@ -116,178 +114,6 @@ exports.default = _index.locales;
 /***/ (function(module, exports, __webpack_require__) {
 
 !function(e,t){ true?module.exports=t():"function"==typeof define&&define.amd?define(t):(e.ReactIntlLocaleData=e.ReactIntlLocaleData||{},e.ReactIntlLocaleData.zh=t())}(this,function(){"use strict";return[{locale:"zh",pluralRuleFunction:function(e,t){return"other"},fields:{year:{displayName:"年",relative:{0:"今年",1:"明年","-1":"去年"},relativeTime:{future:{other:"{0}年后"},past:{other:"{0}年前"}}},month:{displayName:"月",relative:{0:"本月",1:"下个月","-1":"上个月"},relativeTime:{future:{other:"{0}个月后"},past:{other:"{0}个月前"}}},day:{displayName:"日",relative:{0:"今天",1:"明天",2:"后天","-2":"前天","-1":"昨天"},relativeTime:{future:{other:"{0}天后"},past:{other:"{0}天前"}}},hour:{displayName:"小时",relative:{0:"这一时间 / 此时"},relativeTime:{future:{other:"{0}小时后"},past:{other:"{0}小时前"}}},minute:{displayName:"分钟",relative:{0:"此刻"},relativeTime:{future:{other:"{0}分钟后"},past:{other:"{0}分钟前"}}},second:{displayName:"秒",relative:{0:"现在"},relativeTime:{future:{other:"{0}秒钟后"},past:{other:"{0}秒钟前"}}}}},{locale:"zh-Hans",parentLocale:"zh"},{locale:"zh-Hans-HK",parentLocale:"zh-Hans",fields:{year:{displayName:"年",relative:{0:"今年",1:"明年","-1":"去年"},relativeTime:{future:{other:"{0}年后"},past:{other:"{0}年前"}}},month:{displayName:"月",relative:{0:"本月",1:"下个月","-1":"上个月"},relativeTime:{future:{other:"{0}个月后"},past:{other:"{0}个月前"}}},day:{displayName:"日",relative:{0:"今天",1:"明天",2:"后天","-2":"前天","-1":"昨天"},relativeTime:{future:{other:"{0}天后"},past:{other:"{0}天前"}}},hour:{displayName:"小时",relative:{0:"这一时间 / 此时"},relativeTime:{future:{other:"{0}小时后"},past:{other:"{0}小时前"}}},minute:{displayName:"分钟",relative:{0:"此刻"},relativeTime:{future:{other:"{0}分钟后"},past:{other:"{0}分钟前"}}},second:{displayName:"秒",relative:{0:"现在"},relativeTime:{future:{other:"{0}秒后"},past:{other:"{0}秒前"}}}}},{locale:"zh-Hans-MO",parentLocale:"zh-Hans",fields:{year:{displayName:"年",relative:{0:"今年",1:"明年","-1":"去年"},relativeTime:{future:{other:"{0}年后"},past:{other:"{0}年前"}}},month:{displayName:"月",relative:{0:"本月",1:"下个月","-1":"上个月"},relativeTime:{future:{other:"{0}个月后"},past:{other:"{0}个月前"}}},day:{displayName:"日",relative:{0:"今天",1:"明天",2:"后天","-2":"前天","-1":"昨天"},relativeTime:{future:{other:"{0}天后"},past:{other:"{0}天前"}}},hour:{displayName:"小时",relative:{0:"这一时间 / 此时"},relativeTime:{future:{other:"{0}小时后"},past:{other:"{0}小时前"}}},minute:{displayName:"分钟",relative:{0:"此刻"},relativeTime:{future:{other:"{0}分钟后"},past:{other:"{0}分钟前"}}},second:{displayName:"秒",relative:{0:"现在"},relativeTime:{future:{other:"{0}秒后"},past:{other:"{0}秒前"}}}}},{locale:"zh-Hans-SG",parentLocale:"zh-Hans",fields:{year:{displayName:"年",relative:{0:"今年",1:"明年","-1":"去年"},relativeTime:{future:{other:"{0}年后"},past:{other:"{0}年前"}}},month:{displayName:"月",relative:{0:"本月",1:"下个月","-1":"上个月"},relativeTime:{future:{other:"{0}个月后"},past:{other:"{0}个月前"}}},day:{displayName:"日",relative:{0:"今天",1:"明天",2:"后天","-2":"前天","-1":"昨天"},relativeTime:{future:{other:"{0}天后"},past:{other:"{0}天前"}}},hour:{displayName:"小时",relative:{0:"这一时间 / 此时"},relativeTime:{future:{other:"{0}小时后"},past:{other:"{0}小时前"}}},minute:{displayName:"分钟",relative:{0:"此刻"},relativeTime:{future:{other:"{0}分钟后"},past:{other:"{0}分钟前"}}},second:{displayName:"秒",relative:{0:"现在"},relativeTime:{future:{other:"{0}秒后"},past:{other:"{0}秒前"}}}}},{locale:"zh-Hant",pluralRuleFunction:function(e,t){return"other"},fields:{year:{displayName:"年",relative:{0:"今年",1:"明年","-1":"去年"},relativeTime:{future:{other:"{0} 年後"},past:{other:"{0} 年前"}}},month:{displayName:"月",relative:{0:"本月",1:"下個月","-1":"上個月"},relativeTime:{future:{other:"{0} 個月後"},past:{other:"{0} 個月前"}}},day:{displayName:"日",relative:{0:"今天",1:"明天",2:"後天","-2":"前天","-1":"昨天"},relativeTime:{future:{other:"{0} 天後"},past:{other:"{0} 天前"}}},hour:{displayName:"小時",relative:{0:"這一小時"},relativeTime:{future:{other:"{0} 小時後"},past:{other:"{0} 小時前"}}},minute:{displayName:"分鐘",relative:{0:"這一分鐘"},relativeTime:{future:{other:"{0} 分鐘後"},past:{other:"{0} 分鐘前"}}},second:{displayName:"秒",relative:{0:"現在"},relativeTime:{future:{other:"{0} 秒後"},past:{other:"{0} 秒前"}}}}},{locale:"zh-Hant-HK",parentLocale:"zh-Hant",fields:{year:{displayName:"年",relative:{0:"今年",1:"下年","-1":"上年"},relativeTime:{future:{other:"{0} 年後"},past:{other:"{0} 年前"}}},month:{displayName:"月",relative:{0:"本月",1:"下個月","-1":"上個月"},relativeTime:{future:{other:"{0} 個月後"},past:{other:"{0} 個月前"}}},day:{displayName:"日",relative:{0:"今日",1:"明日",2:"後日","-2":"前日","-1":"昨日"},relativeTime:{future:{other:"{0} 日後"},past:{other:"{0} 日前"}}},hour:{displayName:"小時",relative:{0:"這個小時"},relativeTime:{future:{other:"{0} 小時後"},past:{other:"{0} 小時前"}}},minute:{displayName:"分鐘",relative:{0:"這分鐘"},relativeTime:{future:{other:"{0} 分鐘後"},past:{other:"{0} 分鐘前"}}},second:{displayName:"秒",relative:{0:"現在"},relativeTime:{future:{other:"{0} 秒後"},past:{other:"{0} 秒前"}}}}},{locale:"zh-Hant-MO",parentLocale:"zh-Hant-HK"}]});
-
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports) {
-
-// GENERATED FILE:
-const messages = {
-  "en": {
-    "name": "English",
-    "messages": {
-      "gui.backdropLibrary.backdropLibrary": "Backdrop Library",
-      "gui.blocks.createVariable": "Create Variable",
-      "gui.costumeLibrary.costumeLibrary": "Costume Library",
-      "gui.costumeTab.addBackdrop": "Add Backdrop",
-      "gui.costumeTab.addCostume": "Add Costume",
-      "gui.extensionLibrary.extensionLibrary": "Extension Library",
-      "gui.greenFlag.go": "Go",
-      "gui.gui.addExtension": "Extensions",
-      "gui.gui.blocks": "Blocks",
-      "gui.gui.costumes": "Costumes",
-      "gui.gui.sounds": "Sounds",
-      "gui.header.open": "Open",
-      "gui.header.save": "Save",
-      "gui.loadButton.load": "Load",
-      "gui.playbackStep.loading": "Loading",
-      "gui.playbackStep.play": "Play",
-      "gui.playbackStep.save": "Save",
-      "gui.playbackStep.stop": "Stop",
-      "gui.prompt.cancel": "Cancel",
-      "gui.prompt.ok": "OK",
-      "gui.soundEditor.echo": "Echo",
-      "gui.soundEditor.faster": "Faster",
-      "gui.soundEditor.louder": "Louder",
-      "gui.soundEditor.play": "Play",
-      "gui.soundEditor.redo": "Redo",
-      "gui.soundEditor.reverse": "Reverse",
-      "gui.soundEditor.robot": "Robot",
-      "gui.soundEditor.save": "Save",
-      "gui.soundEditor.slower": "Slower",
-      "gui.soundEditor.softer": "Softer",
-      "gui.soundEditor.sound": "Sound",
-      "gui.soundEditor.stop": "Stop",
-      "gui.soundEditor.trim": "Trim",
-      "gui.soundEditor.undo": "Undo",
-      "gui.soundLibrary.soundLibrary": "Sound Library",
-      "gui.soundTab.addSound": "Add Sound",
-      "gui.soundTab.recordSound": "Record Sound",
-      "gui.spriteInfo.allAround": "all around",
-      "gui.spriteInfo.direction": "Direction",
-      "gui.spriteInfo.doNotRotate": "don't rotate",
-      "gui.spriteInfo.leftRight": "left-right",
-      "gui.spriteInfo.name": "Name",
-      "gui.spriteInfo.rotation": "Rotation",
-      "gui.spriteInfo.show": "Show",
-      "gui.spriteInfo.sprite": "Sprite",
-      "gui.spriteLibrary.spriteLibrary": "Sprite Library",
-      "gui.spriteSelector.addSprite": "Add Sprite",
-      "gui.spriteSelectorItem.contextMenuDelete": "delete",
-      "gui.spriteSelectorItem.contextMenuDuplicate": "duplicate",
-      "gui.stageSelector.backdrops": "Backdrops",
-      "gui.stageSelector.stage": "Stage",
-      "gui.stageSelector.targetPaneAddBackdrop": "Add Backdrop",
-      "gui.stopAll.stop": "Stop",
-      "gui.turboMode.active": "Turbo Mode",
-      "paint.brushMode.brush": "Brush",
-      "paint.paintEditor.hue": "Hue",
-      "paint.paintEditor.saturation": "Saturation",
-      "paint.paintEditor.brightness": "Brightness",
-      "paint.eraserMode.eraser": "Eraser",
-      "paint.paintEditor.fill": "Fill",
-      "paint.lineMode.line": "Line",
-      "paint.ovalMode.oval": "Circle",
-      "paint.paintEditor.costume": "Costume",
-      "paint.paintEditor.undo": "Undo",
-      "paint.paintEditor.redo": "Redo",
-      "paint.paintEditor.front": "Front",
-      "paint.paintEditor.back": "Back",
-      "paint.paintEditor.group": "Group",
-      "paint.paintEditor.ungroup": "Ungroup",
-      "paint.paintEditor.modeTools": "Mode Tools",
-      "paint.penMode.pen": "Pen",
-      "paint.rectMode.rect": "Rectangle",
-      "paint.reshapeMode.reshape": "Reshape",
-      "paint.roundedRectMode.roundedRect": "Rounded Rectangle",
-      "paint.selectMode.select": "Select",
-      "paint.paintEditor.stroke": "Outline"
-    }
-  },
-  "zh": {
-    "name": "简体中文",
-    "messages": {
-      "gui.backdropLibrary.backdropLibrary": "背景库",
-      "gui.blocks.createVariable": "创建变量",
-      "gui.costumeLibrary.costumeLibrary": "造型库",
-      "gui.costumeTab.addBackdrop": "添加背景",
-      "gui.costumeTab.addCostume": "添加造型",
-      "gui.extensionLibrary.extensionLibrary": "扩展型",
-      "gui.greenFlag.go": "运行",
-      "gui.gui.addExtension": "扩展",
-      "gui.gui.blocks": "脚本",
-      "gui.gui.costumes": "造型",
-      "gui.gui.sounds": "声音",
-      "gui.header.open": "打开",
-      "gui.header.save": "保存",
-      "gui.loadButton.load": "打开",
-      "gui.playbackStep.loading": "载入中",
-      "gui.playbackStep.play": "播放",
-      "gui.playbackStep.save": "保存",
-      "gui.playbackStep.stop": "停止",
-      "gui.prompt.cancel": "取消",
-      "gui.prompt.ok": "确定",
-      "gui.soundEditor.echo": "回声",
-      "gui.soundEditor.faster": "加快",
-      "gui.soundEditor.louder": "响亮",
-      "gui.soundEditor.play": "播放",
-      "gui.soundEditor.redo": "重做",
-      "gui.soundEditor.reverse": "反转",
-      "gui.soundEditor.robot": "机器",
-      "gui.soundEditor.save": "保存",
-      "gui.soundEditor.slower": "减慢",
-      "gui.soundEditor.softer": "柔和",
-      "gui.soundEditor.sound": "声音",
-      "gui.soundEditor.stop": "停止",
-      "gui.soundEditor.trim": "剪裁",
-      "gui.soundEditor.undo": "撤消",
-      "gui.soundLibrary.soundLibrary": "声音库",
-      "gui.soundTab.addSound": "添加声音",
-      "gui.soundTab.recordSound": "记录声音",
-      "gui.spriteInfo.allAround": "任意翻转",
-      "gui.spriteInfo.direction": "方向",
-      "gui.spriteInfo.doNotRotate": "不翻转",
-      "gui.spriteInfo.leftRight": "左右翻转",
-      "gui.spriteInfo.name": "名字",
-      "gui.spriteInfo.rotation": "旋转",
-      "gui.spriteInfo.show": "显示",
-      "gui.spriteInfo.sprite": "角色",
-      "gui.spriteLibrary.spriteLibrary": "角色库",
-      "gui.spriteSelector.addSprite": "添加角色",
-      "gui.spriteSelectorItem.contextMenuDelete": "删除",
-      "gui.spriteSelectorItem.contextMenuDuplicate": "复制",
-      "gui.stageSelector.backdrops": "背景",
-      "gui.stageSelector.stage": "舞台",
-      "gui.stageSelector.targetPaneAddBackdrop": "添加背景",
-      "gui.stopAll.stop": "停止",
-      "gui.turboMode.active": "加速模式",
-      "paint.brushMode.brush": "画刷",
-      "paint.paintEditor.hue": "色调",
-      "paint.paintEditor.saturation": "饱和度",
-      "paint.paintEditor.brightness": "亮度",
-      "paint.eraserMode.eraser": "橡皮擦",
-      "paint.paintEditor.fill": "填充",
-      "paint.lineMode.line": "线",
-      "paint.ovalMode.oval": "圆",
-      "paint.paintEditor.costume": "造型",
-      "paint.paintEditor.undo": "撤消",
-      "paint.paintEditor.redo": "重做",
-      "paint.paintEditor.front": "前景",
-      "paint.paintEditor.back": "背景",
-      "paint.paintEditor.group": "分组",
-      "paint.paintEditor.ungroup": "取消分组",
-      "paint.paintEditor.modeTools": "模式工具",
-      "paint.penMode.pen": "画笔",
-      "paint.rectMode.rect": "矩形",
-      "paint.reshapeMode.reshape": "变形",
-      "paint.roundedRectMode.roundedRect": "圆角矩形",
-      "paint.selectMode.select": "选择",
-      "paint.paintEditor.stroke": "外框"
-    }
-  }
-}
-exports.locales = messages;
 
 
 /***/ })
