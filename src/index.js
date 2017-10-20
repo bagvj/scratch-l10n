@@ -4,7 +4,7 @@ import zh from 'react-intl/locale-data/zh';
 // import de from 'react-intl/locale-data/de';
 // import es from 'react-intl/locale-data/es';
 // import he from 'react-intl/locale-data/he';
-// import locales from './supported-locales.js';
+import locales from './supported-locales.js';
 
 let localeData = locales;
 localeData.en.localeData = en;
