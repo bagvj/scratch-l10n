@@ -1,70 +1,70 @@
 {
     "pen.setColor": {
-        "message": "ÉèÖÃ»­±ÊÑÕÉ«Îª [COLOR]",
+        "message": "è®¾ç½®ç”»ç¬”é¢œè‰²ä¸º [COLOR]",
         "description": "set the pen color to a particular (RGB) value"
     },
     "pen.setColorParam": {
-        "message": "ÉèÖÃ»­±Ê [COLOR_PARAM] µ½ [VALUE]",
+        "message": "è®¾ç½®ç”»ç¬” [COLOR_PARAM] åˆ° [VALUE]",
         "description": "set the state for a pen color parameter e.g. saturation"
     },
     "pen.colorMenu.brightness": {
-        "message": "ÁÁ¶È",
+        "message": "äº®åº¦",
         "description": "label for brightness element in color picker for pen extension"
     },
     "pen.setSize": {
-        "message": "ÉèÖÃ»­±Ê´óĞ¡Îª [SIZE]",
+        "message": "è®¾ç½®ç”»ç¬”å¤§å°ä¸º [SIZE]",
         "description": "set the diameter of a trail left by a sprite"
     },
     "pen.changeHue": {
-        "message": "°Ñ»­±ÊÉ«µ÷µ÷µ½ [HUE]",
+        "message": "æŠŠç”»ç¬”è‰²è°ƒè°ƒåˆ° [HUE]",
         "description": "legacy pen blocks - change pen color"
     },
     "pen.stamp": {
-        "message": "Í¼ÕÂ",
+        "message": "å›¾ç« ",
         "description": "render current costume on the background"
     },
     "pen.clear": {
-        "message": "Çå³ı",
+        "message": "æ¸…é™¤",
         "description": "erase all pen trails and stamps"
     },
     "pen.setHue": {
-        "message": "ÉèÖÃ»­±ÊÉ«µ÷Îª [HUE]",
+        "message": "è®¾ç½®ç”»ç¬”è‰²è°ƒä¸º [HUE]",
         "description": "legacy pen blocks - set pen color to number"
     },
     "pen.setShade": {
-        "message": "ÉèÖÃ»­±ÊÒõÓ°Îª [SHADE]",
+        "message": "è®¾ç½®ç”»ç¬”é˜´å½±ä¸º [SHADE]",
         "description": "legacy pen blocks - set pen shade"
     },
     "pen.colorMenu.color": {
-        "message": "ÑÕÉ«,
+        "message": "é¢œè‰²",
         "description": "label for color element in color picker for pen extension"
     },
     "pen.changeSize": {
-        "message": "°Ñ»­±Ê´óĞ¡µ÷µ½ [SIZE]",
+        "message": "æŠŠç”»ç¬”å¤§å°è°ƒåˆ° [SIZE]",
         "description": "change the diameter of the trail left by a sprite"
     },
     "pen.colorMenu.transparency": {
-        "message": "Í¸Ã÷¶È",
+        "message": "é€æ˜åº¦",
         "description": "label for transparency element in color picker for pen extension"
     },
     "pen.changeColorParam": {
-        "message": "°Ñ»­±Ê [COLOR_PARAM] µ÷µ½ [VALUE]",
+        "message": "æŠŠç”»ç¬” [COLOR_PARAM] è°ƒåˆ° [VALUE]",
         "description": "change the state of a pen color parameter"
     },
     "pen.penDown": {
-        "message": "»­±ÊÂäÏÂ",
+        "message": "ç”»ç¬”è½ä¸‹",
         "description": "start leaving a trail when the sprite moves"
     },
     "pen.penUp": {
-        "message": "»­±ÊÌ§Æğ",
+        "message": "ç”»ç¬”æŠ¬èµ·",
         "description": "stop leaving a trail behind the sprite"
     },
     "pen.colorMenu.saturation": {
-        "message": "±¥ºÍ¶È",
+        "message": "é¥±å’Œåº¦",
         "description": "label for saturation element in color picker for pen extension"
     },
     "pen.changeShade": {
-        "message": "°Ñ»­±ÊÒõÓ°µ÷µ½ [SHADE]",
+        "message": "æŠŠç”»ç¬”é˜´å½±è°ƒåˆ° [SHADE]",
         "description": "legacy pen blocks - change pen shade"
     }
 }
