@@ -1,10 +1,90 @@
 {
+  "gui.unsupportedBrowser.label": {
+    "message": "Internet Explorer is not supported",
+    "description": ""
+  },
+  "gui.unsupportedBrowser.description": {
+    "message": "We're very sorry, but Scratch 3.0 does not support Internet Explorer. We recommend trying a newer browser such as Google Chrome, Mozilla Firefox, or Microsoft Edge.",
+    "description": "Unsupported browser description"
+  },
+  "gui.unsupportedBrowser.back": {
+    "message": "Back",
+    "description": "Label for button go back when browser is unsupported"
+  },
+  "gui.unsupportedBrowser.previewfaq": {
+    "message": "To learn more, go to the {previewFaqLink}.",
+    "description": "Scratch 3.0 FAQ description"
+  },
+  "gui.unsupportedBrowser.previewfaqlink": {
+    "message": "preview FAQ",
+    "description": "link to Scratch 3.0 FAQ page"
+  },
+  "gui.comingSoon.message1": {
+    "message": "Don't worry, we're on it {emoji}",
+    "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
+  },
+  "gui.comingSoon.message2": {
+    "message": "Coming Soon...",
+    "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
+  },
+  "gui.comingSoon.message3": {
+    "message": "We're working on it {emoji}",
+    "description": "One of the \"coming soon\" random messages for yet-to-be-done features"
+  },
+  "gui.crashMessage.reload": {
+    "message": "Reload",
+    "description": "reload"
+  },
+  "gui.crashMessage.title": {
+    "message": "Oops! Something went wrong.",
+    "description": "crash message title"
+  },
+  "gui.crashMessage.content": {
+    "message": "We are so sorry, but it looks like Scratch has crashed. This bug has been\nautomatically reported to the Scratch Team. Please refresh your page to try\nagain.",
+    "description": "crash message body"
+  },
+  "gui.customProcedures.makeABlock": {
+    "message": "Make a Block",
+    "description": "Make a Block"
+  },
+  "gui.customProcedures.addAnInputNumberText": {
+    "message": "Add an input",
+    "description": "Label for button to add a number/text input"
+  },
+  "gui.customProcedures.numberTextType": {
+    "message": "number or text",
+    "description": "Description of the number/text input type"
+  },
+  "gui.customProcedures.addAnInputBoolean": {
+    "message": "Add an input",
+    "description": "Label for button to add a boolean input"
+  },
+  "gui.customProcedures.booleanType": {
+    "message": "boolean",
+    "description": "Description of the boolean input type"
+  },
+  "gui.customProcedures.addALabel": {
+    "message": "Add a label",
+    "description": "Label for button to add a label"
+  },
+  "gui.customProcedures.runWithoutScreenRefresh": {
+    "message": "Run without screen refresh",
+    "description": "Label for checkbox to run without screen refresh"
+  },
+  "gui.customProcedures.cancel": {
+    "message": "Cancel",
+    "description": "Label for button to cancel custom procedure edits"
+  },
+  "gui.customProcedures.ok": {
+    "message": "OK",
+    "description": "Label for button to save new custom procedure"
+  },
   "gui.greenFlag.go": {
     "message": "Go",
     "description": "Button to run blocks in the green-flag"
   },
   "gui.gui.addExtension": {
-    "message": "Extensions",
+    "message": "Add Extension",
     "description": "Button to add an extension in the target pane"
   },
   "gui.gui.blocks": {
@@ -19,9 +99,77 @@
     "message": "Sounds",
     "description": "Tab label in the gui tabs"
   },
+  "gui.importInfo.title": {
+    "message": "View a Scratch 2.0 Project",
+    "description": "Scratch 2.0 import modal label - for accessibility"
+  },
+  "gui.importInfo.message": {
+    "message": "Enter a link to one of your shared Scratch projects. Changes made in this 3.0 Preview will not be saved.",
+    "description": "Import project message"
+  },
+  "gui.importInfo.invalidFormatError": {
+    "message": "Uh oh, that project link or id doesn't look quite right.",
+    "description": "Invalid project link or id message"
+  },
+  "gui.importModal.viewproject": {
+    "message": "View",
+    "description": "Label for button to load a scratch 2.0 project"
+  },
+  "gui.importInfo.goback": {
+    "message": "Go Back",
+    "description": "Label for button to back out of importing a project"
+  },
+  "gui.importInfo.previewfaq": {
+    "message": "To learn more, go to the {previewFaqLink}.",
+    "description": "Invitation to try 3.0 preview"
+  },
+  "gui.importInfo.previewfaqlink": {
+    "message": "Preview FAQ",
+    "description": "link to Scratch 3.0 preview FAQ page"
+  },
+  "gui.extensionLibrary.comingSoon": {
+    "message": "Coming Soon",
+    "description": "Label for extensions that are not yet implemented"
+  },
   "gui.loadButton.load": {
     "message": "Load",
     "description": "Button for the load project in the load-button"
+  },
+  "gui.loader.message1": {
+    "message": "Creating blocks …",
+    "description": "One of the loading messages"
+  },
+  "gui.loader.message2": {
+    "message": "Loading sprites …",
+    "description": "One of the loading messages"
+  },
+  "gui.loader.message3": {
+    "message": "Loading sounds …",
+    "description": "One of the loading messages"
+  },
+  "gui.loader.message4": {
+    "message": "Loading extensions …",
+    "description": "One of the loading messages"
+  },
+  "gui.loader.message5": {
+    "message": "Herding cats …",
+    "description": "One of the loading messages"
+  },
+  "gui.loader.message6": {
+    "message": "Transmitting nanos …",
+    "description": "One of the loading messages"
+  },
+  "gui.loader.message7": {
+    "message": "Inflating gobos …",
+    "description": "One of the loading messages"
+  },
+  "gui.loader.message8": {
+    "message": "Preparing emojiis …",
+    "description": "One of the loading messages"
+  },
+  "gui.loader.headline": {
+    "message": "Loading Project",
+    "description": "Main loading message"
   },
   "gui.header.open": {
     "message": "Open",
@@ -30,6 +178,46 @@
   "gui.header.save": {
     "message": "Save",
     "description": "Label for the save button in the header"
+  },
+  "gui.menuBar.giveFeedback": {
+    "message": "Give Feedback",
+    "description": "Label for feedback form modal button"
+  },
+  "gui.previewInfo.label": {
+    "message": "Try Scratch 3.0",
+    "description": "Scratch 3.0 modal label - for accessibility"
+  },
+  "gui.previewInfo.welcome": {
+    "message": "Welcome to the Scratch 3.0 Preview",
+    "description": "Header for Preview Info Modal"
+  },
+  "gui.previewInfo.invitation": {
+    "message": "We're working on the next generation of Scratch. We're excited for you to try it!",
+    "description": "Invitation to try 3.0 preview"
+  },
+  "gui.previewInfo.notnow": {
+    "message": "Not Now",
+    "description": "Label for button to back out of trying Scratch 3.0 preview"
+  },
+  "gui.previewModal.tryit": {
+    "message": "Try It! {caticon}",
+    "description": "Label for button to try Scratch 3.0 preview"
+  },
+  "gui.previewModal.viewproject": {
+    "message": "View 2.0 Project",
+    "description": "Label for button to import a 2.0 project"
+  },
+  "gui.previewInfo.previewfaq": {
+    "message": "To learn more, go to the {previewFaqLink}.",
+    "description": "Invitation to try 3.0 preview"
+  },
+  "gui.previewInfo.previewfaqlink": {
+    "message": "Preview FAQ",
+    "description": "link to Scratch 3.0 preview FAQ page"
+  },
+  "gui.gui.variablePrompt": {
+    "message": "More Options",
+    "description": "Dropdown message for variable/list options"
   },
   "gui.prompt.cancel": {
     "message": "Cancel",
@@ -54,6 +242,22 @@
   "gui.playbackStep.stop": {
     "message": "Stop",
     "description": "Button to stop in the playback-step"
+  },
+  "gui.recordingStep.clickButton": {
+    "message": "Begin recording by clicking the button below",
+    "description": "Begin recording by clicking the button below"
+  },
+  "gui.recordingStep.permission": {
+    "message": "↖️  We need your permission to use your microphone",
+    "description": "permission to microphone"
+  },
+  "gui.recordingStep.record": {
+    "message": "Record",
+    "description": "record"
+  },
+  "gui.recordingStep.stopRecording": {
+    "message": "Stop recording",
+    "description": "Stop recording"
   },
   "gui.soundEditor.sound": {
     "message": "Sound",
@@ -127,21 +331,9 @@
     "message": "Direction",
     "description": "Label for direction in the sprite-info"
   },
-  "gui.spriteInfo.rotation": {
-    "message": "Rotation",
-    "description": "Label for rotation in the sprite-info"
-  },
-  "gui.spriteInfo.leftRight": {
-    "message": "left-right",
-    "description": "Label for rotation left-right in the sprite-info"
-  },
-  "gui.spriteInfo.doNotRotate": {
-    "message": "don't rotate",
-    "description": "Label for rotation don't-rotate in the sprite-info"
-  },
-  "gui.spriteInfo.allAround": {
-    "message": "all around",
-    "description": "Label for rotation all-around in the sprite-info"
+  "gui.spriteInfo.size": {
+    "message": "Size",
+    "description": "Label for size in the sprite-info"
   },
   "gui.spriteSelectorItem.contextMenuDuplicate": {
     "message": "duplicate",
@@ -151,13 +343,61 @@
     "message": "delete",
     "description": "Menu item to delete in the right click menu"
   },
-  "gui.spriteSelector.addSprite": {
-    "message": "Add Sprite",
-    "description": "Button to add a sprite in the target pane"
+  "gui.spriteSelector.addSpriteFromLibrary": {
+    "message": "Sprite Library",
+    "description": "Button to add a sprite in the target pane from library"
   },
-  "gui.stageSelector.targetPaneAddBackdrop": {
-    "message": "Add Backdrop",
-    "description": "Button to add a backdrop in the target pane"
+  "gui.spriteSelector.addSpriteFromPaint": {
+    "message": "Paint",
+    "description": "Button to add a sprite in the target pane from paint"
+  },
+  "gui.spriteSelector.addSpriteFromSurprise": {
+    "message": "Surprise",
+    "description": "Button to add a random sprite in the target pane"
+  },
+  "gui.spriteSelector.addSpriteFromFile": {
+    "message": "Coming Soon",
+    "description": "Button to add a sprite in the target pane from file"
+  },
+  "gui.spriteSelector.addSpriteFromCamera": {
+    "message": "Coming Soon",
+    "description": "Button to add a sprite in the target pane from camera"
+  },
+  "gui.gui.stageSizeLarge": {
+    "message": "Stage Size Toggle - Large",
+    "description": "Button to change stage size to large"
+  },
+  "gui.gui.stageSizeSmall": {
+    "message": "Stage Size Toggle - Small",
+    "description": "Button to change stage size to small"
+  },
+  "gui.gui.stageSizeFull": {
+    "message": "Stage Size Toggle - Full Screen",
+    "description": "Button to change stage size to full screen"
+  },
+  "gui.gui.stageSizeUnFull": {
+    "message": "Stage Size Toggle - Un-full screen",
+    "description": "Button to get out of full screen mode"
+  },
+  "gui.spriteSelector.addBackdropFromLibrary": {
+    "message": "Backdrop Library",
+    "description": "Button to add a stage in the target pane from library"
+  },
+  "gui.stageSelector.addBackdropFromPaint": {
+    "message": "Paint",
+    "description": "Button to add a stage in the target pane from paint"
+  },
+  "gui.stageSelector.addBackdropFromSurprise": {
+    "message": "Surprise",
+    "description": "Button to add a random stage in the target pane"
+  },
+  "gui.stageSelector.addBackdropFromFile": {
+    "message": "Coming Soon",
+    "description": "Button to add a stage in the target pane from file"
+  },
+  "gui.stageSelector.addBackdropFromCamera": {
+    "message": "Coming Soon",
+    "description": "Button to add a stage in the target pane from camera"
   },
   "gui.stageSelector.stage": {
     "message": "Stage",
@@ -175,6 +415,30 @@
     "message": "Turbo Mode",
     "description": "Label indicating turbo mode is active"
   },
+  "gui.webglModal.label": {
+    "message": "Your Browser Does Not Support WebGL",
+    "description": "WebGL missing title"
+  },
+  "gui.webglModal.description": {
+    "message": "Unfortunately it looks like your browser or computer {webGlLink}. This technology is needed for Scratch 3.0 to run.",
+    "description": "WebGL missing message"
+  },
+  "gui.webglModal.webgllink": {
+    "message": "does not support WebGL",
+    "description": "link part of your browser does not support WebGL message"
+  },
+  "gui.webglModal.back": {
+    "message": "Back",
+    "description": "Label for button go back when browser is unsupported"
+  },
+  "gui.webglModal.previewfaq": {
+    "message": "To learn more, go to the {previewFaqLink}.",
+    "description": "Scratch 3.0 FAQ description"
+  },
+  "gui.webglModal.previewfaqlink": {
+    "message": "preview FAQ",
+    "description": "link to Scratch 3.0 FAQ page"
+  },
   "gui.backdropLibrary.backdropLibrary": {
     "message": "Backdrop Library",
     "description": "Title for backdrops library in the backdrop-library"
@@ -187,13 +451,29 @@
     "message": "Costume Library",
     "description": "Title for costume library in the costume-library"
   },
-  "gui.costumeTab.addBackdrop": {
-    "message": "Add Backdrop",
+  "gui.costumeTab.addBackdropFromLibrary": {
+    "message": "Backdrop Library",
     "description": "Button to add a backdrop in the editor tab"
   },
-  "gui.costumeTab.addCostume": {
-    "message": "Add Costume",
+  "gui.costumeTab.addCostumeFromLibrary": {
+    "message": "Costume Library",
     "description": "Button to add a costume in the editor tab"
+  },
+  "gui.costumeTab.addBlankCostume": {
+    "message": "Paint",
+    "description": "Button to add a blank costume in the editor tab"
+  },
+  "gui.costumeTab.addSurpriseCostume": {
+    "message": "Surprise",
+    "description": "Button to add a surprise costume in the editor tab"
+  },
+  "gui.costumeTab.addFileCostume": {
+    "message": "Coming Soon",
+    "description": "Button to add a file upload costume in the editor tab"
+  },
+  "gui.costumeTab.addCameraCostume": {
+    "message": "Coming Soon",
+    "description": "Button to use the camera to create a costume costume in the editor tab"
   },
   "gui.extensionLibrary.extensionLibrary": {
     "message": "Extension Library",
@@ -203,12 +483,20 @@
     "message": "Sound Library",
     "description": "Title for sound library in the sound-library"
   },
+  "gui.soundTab.fileUploadSound": {
+    "message": "Coming Soon",
+    "description": "Button to upload sound from file in the editor tab"
+  },
+  "gui.soundTab.surpriseSound": {
+    "message": "Surprise",
+    "description": "Button to get a random sound in the editor tab"
+  },
   "gui.soundTab.recordSound": {
-    "message": "Record Sound",
+    "message": "Record",
     "description": "Button to record a sound in the editor tab"
   },
-  "gui.soundTab.addSound": {
-    "message": "Add Sound",
+  "gui.soundTab.addSoundFromLibrary": {
+    "message": "Sound Library",
     "description": "Button to add a sound in the editor tab"
   },
   "gui.spriteLibrary.spriteLibrary": {

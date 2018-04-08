@@ -1,0 +1,218 @@
+{
+  "gui.greenFlag.go": {
+    "message": "运行",
+    "description": "Button to run blocks in the green-flag"
+  },
+  "gui.gui.addExtension": {
+    "message": "扩展",
+    "description": "Button to add an extension in the target pane"
+  },
+  "gui.gui.blocks": {
+    "message": "脚本",
+    "description": "Tab label in the gui tabs"
+  },
+  "gui.gui.costumes": {
+    "message": "造型",
+    "description": "Tab label in the gui tabs"
+  },
+  "gui.gui.sounds": {
+    "message": "声音",
+    "description": "Tab label in the gui tabs"
+  },
+  "gui.loadButton.load": {
+    "message": "打开",
+    "description": "Button for the load project in the load-button"
+  },
+  "gui.header.open": {
+    "message": "打开",
+    "description": "Label for the open button in the header"
+  },
+  "gui.header.save": {
+    "message": "保存",
+    "description": "Label for the save button in the header"
+  },
+  "gui.prompt.cancel": {
+    "message": "取消",
+    "description": ""
+  },
+  "gui.prompt.ok": {
+    "message": "确定",
+    "description": ""
+  },
+  "gui.playbackStep.loading": {
+    "message": "载入中",
+    "description": "Button to loading in the playback-step"
+  },
+  "gui.playbackStep.save": {
+    "message": "保存",
+    "description": "Button to save in the playback-step"
+  },
+  "gui.playbackStep.play": {
+    "message": "播放",
+    "description": "Button to play in the playback-step"
+  },
+  "gui.playbackStep.stop": {
+    "message": "停止",
+    "description": "Button to stop in the playback-step"
+  },
+  "gui.soundEditor.sound": {
+    "message": "声音",
+    "description": "Label for the name of the sound"
+  },
+  "gui.soundEditor.play": {
+    "message": "播放",
+    "description": "Title of the button to start playing the sound"
+  },
+  "gui.soundEditor.stop": {
+    "message": "停止",
+    "description": "Title of the button to stop the sound"
+  },
+  "gui.soundEditor.trim": {
+    "message": "剪裁",
+    "description": "Title of the button to start trimminging the sound"
+  },
+  "gui.soundEditor.save": {
+    "message": "保存",
+    "description": "Title of the button to save trimmed sound"
+  },
+  "gui.soundEditor.undo": {
+    "message": "撤消",
+    "description": "Title of the button to undo"
+  },
+  "gui.soundEditor.redo": {
+    "message": "重做",
+    "description": "Title of the button to redo"
+  },
+  "gui.soundEditor.faster": {
+    "message": "加快",
+    "description": "Title of the button to apply the faster effect"
+  },
+  "gui.soundEditor.slower": {
+    "message": "减慢",
+    "description": "Title of the button to apply the slower effect"
+  },
+  "gui.soundEditor.echo": {
+    "message": "回声",
+    "description": "Title of the button to apply the echo effect"
+  },
+  "gui.soundEditor.robot": {
+    "message": "机器",
+    "description": "Title of the button to apply the robot effect"
+  },
+  "gui.soundEditor.louder": {
+    "message": "响亮",
+    "description": "Title of the button to apply the louder effect"
+  },
+  "gui.soundEditor.softer": {
+    "message": "柔和",
+    "description": "Title of the button to apply thr.softer effect"
+  },
+  "gui.soundEditor.reverse": {
+    "message": "反转",
+    "description": "Title of the button to apply the reverse effect"
+  },
+  "gui.spriteInfo.name": {
+    "message": "名字",
+    "description": "Placeholder for sprite name in the sprite-info"
+  },
+  "gui.spriteInfo.sprite": {
+    "message": "角色",
+    "description": "Label for sprite in the sprite-info"
+  },
+  "gui.spriteInfo.show": {
+    "message": "显示",
+    "description": "Label for show in the sprite-info"
+  },
+  "gui.spriteInfo.direction": {
+    "message": "方向",
+    "description": "Label for direction in the sprite-info"
+  },
+  "gui.spriteInfo.rotation": {
+    "message": "旋转",
+    "description": "Label for rotation in the sprite-info"
+  },
+  "gui.spriteInfo.leftRight": {
+    "message": "左右翻转",
+    "description": "Label for rotation left-right in the sprite-info"
+  },
+  "gui.spriteInfo.doNotRotate": {
+    "message": "不翻转",
+    "description": "Label for rotation don't-rotate in the sprite-info"
+  },
+  "gui.spriteInfo.allAround": {
+    "message": "任意翻转",
+    "description": "Label for rotation all-around in the sprite-info"
+  },
+  "gui.spriteSelectorItem.contextMenuDuplicate": {
+    "message": "复制",
+    "description": "Menu item to duplicate in the right click menu"
+  },
+  "gui.spriteSelectorItem.contextMenuDelete": {
+    "message": "删除",
+    "description": "Menu item to delete in the right click menu"
+  },
+  "gui.spriteSelector.addSprite": {
+    "message": "添加角色",
+    "description": "Button to add a sprite in the target pane"
+  },
+  "gui.stageSelector.targetPaneAddBackdrop": {
+    "message": "添加背景",
+    "description": "Button to add a backdrop in the target pane"
+  },
+  "gui.stageSelector.stage": {
+    "message": "舞台",
+    "description": "Label for the stage in the stage selector"
+  },
+  "gui.stageSelector.backdrops": {
+    "message": "背景",
+    "description": "Label for the backdrops in the stage selector"
+  },
+  "gui.stopAll.stop": {
+    "message": "停止",
+    "description": "Button to stop all blocks in the stop-all"
+  },
+  "gui.turboMode.active": {
+    "message": "加速模式",
+    "description": "Label indicating turbo mode is active"
+  },
+  "gui.backdropLibrary.backdropLibrary": {
+    "message": "背景库",
+    "description": "Title for backdrops library in the backdrop-library"
+  },
+  "gui.blocks.createVariable": {
+    "message": "创建变量",
+    "description": "Title for create variable in the blocks"
+  },
+  "gui.costumeLibrary.costumeLibrary": {
+    "message": "造型库",
+    "description": "Title for costume library in the costume-library"
+  },
+  "gui.costumeTab.addBackdrop": {
+    "message": "添加背景",
+    "description": "Button to add a backdrop in the editor tab"
+  },
+  "gui.costumeTab.addCostume": {
+    "message": "添加造型",
+    "description": "Button to add a costume in the editor tab"
+  },
+  "gui.extensionLibrary.extensionLibrary": {
+    "message": "扩展库",
+    "description": "Title for extension library in the extension-library"
+  },
+  "gui.soundLibrary.soundLibrary": {
+    "message": "声音库",
+    "description": "Title for sound library in the sound-library"
+  },
+  "gui.soundTab.recordSound": {
+    "message": "记录声音",
+    "description": "Button to record a sound in the editor tab"
+  },
+  "gui.soundTab.addSound": {
+    "message": "添加声音",
+    "description": "Button to add a sound in the editor tab"
+  },
+  "gui.spriteLibrary.spriteLibrary": {
+    "message": "角色库",
+    "description": "Title for sprite library in the sprite-library"
+  }
+}
